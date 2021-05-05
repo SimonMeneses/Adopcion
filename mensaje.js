@@ -1,6 +1,6 @@
 let msj1 = [
   "./img/perfil.png",
-  "Maria Dolores",
+  "Mario Dolores",
   "4:36",
   "¡Hola! claro, podemos acordar un lugar y hora para que conozcas...",
 ];

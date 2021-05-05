@@ -166,6 +166,7 @@ li {
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-bottom: 1rem;
    
 }
 
@@ -238,9 +239,33 @@ padding: 10px;
     position: absolute;
 }
 
+#btn_back2 {
+    cursor: pointer;
+    left: 1rem;
+    top: 1rem;
+    z-index: 1000;
+    position: absolute;
+}
+
 
 
 
 /**************CIERRE MENSAJES***************/
 
 
+/**************PERFIL MASCOTAS***************/
+
+.div-img-perfil {
+
+    width: auto;
+    margin-bottom: 0;
+}
+
+.info-perfil {
+    height: 100%;
+    width: auto;
+    background-color: #FFFFFE;
+    border-radius: 16px 16px 0px 0px;
+}
+
+/**************CIERRE PERFIL MASCOTAS***************/
