@@ -1,0 +1,115 @@
+
+
+{
+    "perros": [
+        {
+            "nombre": "rocky",
+            "raza": "rottweiler",
+            "edad": "3 meses",
+            "sexo": "./img/iconos/masculino.png",
+            "ubicacion": "4140 parker Rd.Alientown, New Mexico 31134",
+            "personalidad": [
+                {"cero": "./img/img_personalidad/jugueton.png"}, 
+                {"uno": "./img/img_personalidad/inquieto.png"},
+                {"dos": "./img/img_personalidad/cariñoso.png"}
+            ],
+            "descripcion": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "id": "0",
+            "url": "./img/img_mascotas/Rocky.png",
+            "favorito": false
+        },
+        {
+            "nombre": "chester",
+            "raza": "rottweiler",
+            "edad": "3 meses",
+            "ubicacion": "4140 parker Rd.Alientown, New Mexico 31134",
+            "personalidad": [
+                "cariñoso",
+                "inquieto",
+                "jugueton"
+            ],
+            "descripcion": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "id": "2"
+        },
+        {
+            "nombre": "papi",
+            "raza": "chihuahua",
+            "edad": "3 meses",
+            "ubicacion": "4140 parker Rd.Alientown, New Mexico 31134",
+            "personalidad": [
+                "cariñoso",
+                "inquieto",
+                "jugueton"
+            ],
+            "descripcion": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "id": "3"
+        },
+        {
+            "nombre": "pelusa",
+            "raza": "rottweiler",
+            "edad": "3 meses",
+            "ubicacion": "4140 parker Rd.Alientown, New Mexico 31134",
+            "personalidad": [
+                "cariñoso",
+                "inquieto",
+                "jugueton"
+            ],
+            "descripcion": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "id": "4"
+        }
+    ],
+    "gatos": [
+        {
+            "nombre": "matilde",
+            "raza": "rottweiler",
+            "edad": "3 meses",
+            "ubicacion": "4140 parker Rd.Alientown, New Mexico 31134",
+            "personalidad": [
+                "cariñoso",
+                "inquieto",
+                "jugueton"
+            ],
+            "descripcion": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "id": "5"
+        },
+        {
+            "nombre": "pelusa",
+            "raza": "rottweiler",
+            "edad": "3 meses",
+            "ubicacion": "4140 parker Rd.Alientown, New Mexico 31134",
+            "personalidad": [
+                "cariñoso",
+                "inquieto",
+                "jugueton"
+            ],
+            "descripcion": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "id": "6"
+        },
+        {
+            "nombre": "kity",
+            "raza": "rottweiler",
+            "edad": "3 meses",
+            "ubicacion": "4140 parker Rd.Alientown, New Mexico 31134",
+            "personalidad": [
+                "cariñoso",
+                "inquieto",
+                "jugueton"
+            ],
+            "descripcion": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "id": "7"
+        },
+        {
+            "nombre": "bombon",
+            "raza": "rottweiler",
+            "edad": "3 meses",
+            "ubicacion": "4140 parker Rd.Alientown, New Mexico 31134",
+            "personalidad": [
+                "cariñoso",
+                "inquieto",
+                "jugueton"
+            ],
+            "descripcion": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "id": "8"
+        }
+    ]
+}
