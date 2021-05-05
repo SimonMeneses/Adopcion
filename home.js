@@ -27,5 +27,8 @@ document.querySelector("#categoria-gato").addEventListener('click', e => {
     document.querySelector("#img-home-4").setAttribute("src", "./img/img_mascotas/card_bombom.png");
 })
 
-
+if (localStorage.getItem("fmatile")) {
+    document.querySelector("#a_img1").setAttribute("href", "./perfil_matilde.html");
+    console.log("se agrego a matilde a favoritos");
+}
 

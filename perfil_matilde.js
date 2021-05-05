@@ -14,3 +14,8 @@ document.querySelector("#descripcion").innerHTML = matilde.descripcion;
 document.querySelector("#personalidad1").setAttribute("src" , matilde.personalidad1);
 document.querySelector("#raza").innerHTML = matilde.raza;
 document.querySelector("#ubicacion").innerHTML = matilde.ubicacion;
+
+document.querySelector("#favorito").addEventListener("click", () =>{
+    localStorage.setItem("fmatilde", matilde);
+    document.querySelector("#favorito").classList.add("fav");
+})

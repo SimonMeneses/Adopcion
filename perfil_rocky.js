@@ -15,4 +15,8 @@ document.querySelector("#personalidad1").setAttribute("src" , rocky.personalidad
 document.querySelector("#raza").innerHTML = rocky.raza;
 document.querySelector("#ubicacion").innerHTML = rocky.ubicacion;
 
+document.querySelector("#favorito").addEventListener("click", () =>{
+    localStorage.setItem("frocky", rocky);
+    document.querySelector("#favorito").classList.add("fav")
+})
 
