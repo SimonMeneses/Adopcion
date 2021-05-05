@@ -17,12 +17,9 @@
 }
 
 .fav-icon {
-  right: 0;
-  border: solid gray 1px;
-  border-radius: 100%;
-  padding: 5px;
+
   position: absolute;
-  right: 3rem;
+  right: 2rem;
 
 }
 
@@ -65,5 +62,5 @@ h2 {
 }
 
 .fav {
-    background-color: darkred;
+    color: aquamarine;
 }
