@@ -15,8 +15,38 @@ document.querySelector("#personalidad1").setAttribute("src" , rocky.personalidad
 document.querySelector("#raza").innerHTML = rocky.raza;
 document.querySelector("#ubicacion").innerHTML = rocky.ubicacion;
 
-document.querySelector("#favorito").addEventListener("click", () =>{
-    localStorage.setItem("frocky", rocky);
-    document.querySelector("#favorito").classList.add("fav")
+let favrocky = localStorage.getItem("favrocky");
+let favorito = document.querySelector("#favoritor");
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    if (favrocky != "rocky"){
+        favorito.setAttribute('src' , "./img/iconos_nav/Guardar.svg");
+        console.log("Rocky NO esta en favoritos");
+    } else {
+        favorito.setAttribute('src' , "./img/iconos_nav/GuardarON.svg");
+        console.log("Rocky esta en favoritos");
+    
+    }
+    
+  });
+
+
+
+document.querySelector("#favoritor").addEventListener("click", () =>{
+    let favrocky = localStorage.getItem("favrocky");
+    let favorito = document.querySelector("#favoritor");
+    if (favrocky != "rocky"){
+        favorito.setAttribute('src' , "./img/iconos_nav/GuardarON.svg");
+        localStorage.setItem("favrocky", "rocky");
+    } else {
+        favorito.setAttribute('src' , "./img/iconos_nav/Guardar.svg");
+        localStorage.setItem("favrocky", "off");
+    }
+
+
 })
+
+
 

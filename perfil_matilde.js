@@ -15,7 +15,35 @@ document.querySelector("#personalidad1").setAttribute("src" , matilde.personalid
 document.querySelector("#raza").innerHTML = matilde.raza;
 document.querySelector("#ubicacion").innerHTML = matilde.ubicacion;
 
-document.querySelector("#favorito").addEventListener("click", () =>{
-    localStorage.setItem("fmatilde", matilde);
-    document.querySelector("#favorito").classList.add("fav");
+let favmatilde = localStorage.getItem("favmatilde");
+let favorito = document.querySelector("#favoritom");
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    if (favmatilde != "matilde"){
+        favorito.setAttribute('src' , "./img/iconos_nav/Guardar.svg");
+        console.log("Matilde NO esta en favoritos");
+    } else {
+        favorito.setAttribute('src' , "./img/iconos_nav/GuardarON.svg");
+        console.log("Matilde esta en favoritos");
+    
+    }
+    
+  });
+
+
+
+document.querySelector("#favoritom").addEventListener("click", () =>{
+    let favmatilde = localStorage.getItem("favmatilde");
+    let favorito = document.querySelector("#favoritom");
+    if (favmatilde != "matilde"){
+        favorito.setAttribute('src' , "./img/iconos_nav/GuardarON.svg");
+        localStorage.setItem("favmatilde", "matilde");
+    } else {
+        favorito.setAttribute('src' , "./img/iconos_nav/Guardar.svg");
+        localStorage.setItem("favmatilde", "off");
+    }
+
+
 })
